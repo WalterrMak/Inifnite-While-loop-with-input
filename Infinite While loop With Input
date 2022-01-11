@@ -1,0 +1,7 @@
+x = 0
+
+while True:
+    x = input("Are we there yet?")
+    if x == "yes":
+        print("Yayyy!,We are there!")
+        break
