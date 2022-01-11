@@ -1,0 +1,5 @@
+day = int(input("How many days do you want to count?"))
+count = 0
+while count <= day:
+  print("Today is day" ,count)
+  count = count+1
