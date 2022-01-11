@@ -1,0 +1,5 @@
+summer=["MAY","JUNE","JULY","AUGUST"]
+month=""
+while month.upper() not in summer:
+    month =input("What months are summer in Finland?")
+print("correct!")
