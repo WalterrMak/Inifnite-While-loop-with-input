@@ -1,0 +1,16 @@
+x = 0
+
+while True:
+    print("I am sleeping")
+    x = input ("Did you set the alarm?")
+    if x == "Yes":
+        print("Wake up!!")
+        break
+    else:
+        print("...")
+        
+        
+    
+    
+   Explained: While true prints i am asleep forever, but asks did you set the alarm. if you answer yes it will break
+   else it will also print ...
