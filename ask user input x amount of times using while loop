@@ -13,5 +13,4 @@ total = 0
 while total <3:
     x = input ("Enter your name: ")
     y = int(input ("Enter age: "))
-    print("")
     total = total +1
