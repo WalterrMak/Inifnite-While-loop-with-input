@@ -9,13 +9,11 @@ Make sure that your output fits with the examples.
 
 
 i = 20
-total = 0
-x = input ("What is the temperature of the water?")
+total = int(input ("What is the temperature of the water?"))
 while True:
-    total += i
     if total < 100:
         print("The water isn't hot enough")
-    elif total > 100:
+    if total >= 100:
         print("The water is boiling")
         break
-    
+    total += i
