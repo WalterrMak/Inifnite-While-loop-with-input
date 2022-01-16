@@ -4,9 +4,6 @@ my_sentence="Eat Sleep Code Repeat!"
 
 
 
-
-num =[1,2,3,4,5,6,7,8,9]
-
 my_sentence="Eat Sleep Code Repeat!"
 
 i = 0 
