@@ -1,0 +1,22 @@
+Use while loop for creating a program that allows user to input numbers and calculates the average.
+1 - Ask user how many numbers will be inputted.
+2 - Ask user "Enter number" based on how many numbers user wants to input.
+3 - Calculate the average of those numbers.
+
+
+
+
+
+
+
+
+
+sum = 0
+numbers= int(input("How many numbers will you be inputting?"))
+count = numbers
+while count > 0:
+    count = count-1
+    num = int(input("Enter number"))
+    sum = sum + num
+    average = sum / numbers
+print("The average is", average)
